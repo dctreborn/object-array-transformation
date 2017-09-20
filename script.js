@@ -13,8 +13,7 @@ function transform(data) {
         if(temp.hasOwnProperty(key)){
             let search = temp[key];
 
-            if(search.active == true){
-                
+            if(search.active == true){                
 
                 activeEntries.push({
                     label: search.name,
